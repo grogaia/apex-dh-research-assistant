@@ -349,6 +349,8 @@ architecture of a RAG system, not just its cost.
 
 
 
+## Critical reflection
+
 APEX is built around the same literature it draws on, and several of its design
 decisions are direct responses to that literature:
 
