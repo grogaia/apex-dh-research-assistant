@@ -173,7 +173,7 @@ ollama pull gpt-oss:20b
 ### 2. Set up the Python environment
 
 ```bash
-cd apex_project
+cd apex-dh-research-assistant
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -215,7 +215,7 @@ No API key and no `.env` file are required.
 ## Project structure
 
 ```
-apex_project/
+apex-dh-research-assistant/
 ├── app.py                 # Streamlit interface
 ├── answer_engine.py       # Core retrieval + prompting logic
 ├── rag_backend.py         # Builds/loads the Reference Library (ChromaDB)
